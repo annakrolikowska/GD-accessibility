@@ -19,6 +19,7 @@ html {
 
 body {
   color: var(--color-dark);
+  margin: 0;
 }
 
 .container {
@@ -237,6 +238,7 @@ nav a:hover {
   grid-area: address;
   padding: 1.2rem 4.8rem;
   height: 63.7rem;
+  max-width: 42.5rem;
   background-image: url(./images/plant-background.webp);
   background-repeat: no-repeat;
 }
